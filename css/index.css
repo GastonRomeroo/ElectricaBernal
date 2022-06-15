@@ -442,6 +442,7 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 11px 6px 22
     display: flex;
 
 }
+
 .Redes {
     display: flex;
     justify-content: center;
@@ -465,8 +466,6 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 11px 6px 22
 .maps__iframe {
   border: 3px outset #E96122;
   border-radius: 15px 21px 15px 30px;
-  
-
 }
 
 .banner__footer {
