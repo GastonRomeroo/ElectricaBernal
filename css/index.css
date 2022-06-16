@@ -322,46 +322,43 @@ header nav .menu {
     display: flex;
     justify-content: center;
     font-size: 20px;
-
-}
-.grid-facebook {
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    padding: 3px;
-}
-.grid-facebook {
-    display: flex;
-    width: 98%;
-    max-width: 1300px;
-    margin: auto;
+    margin-top: 20px;
 }
 
-.facebook_publication > div {
-    display: flex;
-    padding: 10px;
-    margin: 3px;
-    color: black;
-    box-shadow: 2px 2px 10px rgba(0,0,0,.25);
-    
+.carousel__section{
+  margin: auto;
+  justify-content: center;
 }
-.grid-facebook {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr; 
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(150px,350px));
+
+
+.carousel__section {
+  margin-top: 20px;
+  width: (max-content: 750px);
+  height: (max-content: 623px);
+  font-size: 15px;
 }
+.carousel__section {
+  display: flex;
+}
+
 
     /* TIENDA */
-.imagenes-tienda {
-    width: 300px;
-    height: 300px;
-    border: 4px solid black;
-    margin: 15px; 
+    .stretched-link::after {
+      position:fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      content: "";
+  }
+.cards {
+  display: flex;
 }
 
 
+
+   /* MARCAS */
 .marcas__marcas {
     width: 300px;
     height: 300px;
@@ -398,8 +395,7 @@ header nav .menu {
 .conteiner__grid > div {
     display: flex;
     padding: 20px;
-
-
+  
 }
 .conteiner__grid {
     display: grid;
@@ -415,6 +411,7 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 11px 6px 22
 }
     /* TIENDA */
 .imagenes-tienda {
+    position: fixed;
     width: 300px;
     height: 300px;
     border: 4px solid black;
