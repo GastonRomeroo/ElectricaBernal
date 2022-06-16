@@ -333,8 +333,8 @@ header nav .menu {
 
 .carousel__section {
   margin-top: 20px;
-  width: (max-content: 750px);
-  height: (max-content: 623px);
+  width: max-content: 750px;
+  height: max-content: 623px;
   font-size: 15px;
 }
 .carousel__section {
