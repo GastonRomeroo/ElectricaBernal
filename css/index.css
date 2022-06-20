@@ -324,16 +324,43 @@ header nav .menu {
     font-size: 20px;
     margin-top: 20px;
 }
+.carousel__{
+  display: flex;
+
+}
 .carousel__div{
   display: flex;
-  justify-content: center;
+  padding: 10px;
 }
+.text {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  flex-direction: row;
+  align-items: center;
+  width: max-content 540px;
+
+}
+
+.text {
+  -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 31px 27px 28px 27px rgba(0,0,0,0.5); 
+  box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 31px 27px 28px 27px rgba(0,0,0,0.5);
+  background: #FFFFFF;
+  }
+  body#tinymce {
+  background: #FFFFFF
+  }
 .carousel-inner {
-  width: 750px;
+  width:540px;
 }
 .carousel-item {
-  width: 750px;
+  width: 540px;
 
+}
+@media  (max-width: 890px){
+  .carousel__ {
+      flex-direction: column;
+  }
 }
 /* TIENDA */
 .cards__img {
