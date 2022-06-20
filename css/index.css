@@ -318,6 +318,20 @@ header nav .menu {
 
 
 /* INDEX */ 
+.module-border-wrap {
+  display: flex;
+  background: linear-gradient(to right, red, purple);
+  padding: 3px;
+}
+
+.module {
+  background: #222;
+  color: white;
+  padding: 2rem;
+}
+
+
+
 .section__article {
     display: flex;
     justify-content: center;
@@ -332,24 +346,18 @@ header nav .menu {
   display: flex;
   padding: 10px;
 }
+
 .text {
   display: flex;
+  color: white;
   padding: 10px;
   margin: auto;
   flex-direction: row;
   align-items: center;
   width: max-content 540px;
-
 }
 
-.text {
-  -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 31px 27px 28px 27px rgba(0,0,0,0.5); 
-  box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 31px 27px 28px 27px rgba(0,0,0,0.5);
-  background: #FFFFFF;
-  }
-  body#tinymce {
-  background: #FFFFFF
-  }
+
 .carousel-inner {
   width:540px;
 }
@@ -358,7 +366,7 @@ header nav .menu {
 
 }
 @media  (max-width: 890px){
-  .carousel__ {
+  .module-border-wrap {
       flex-direction: column;
   }
 }
@@ -370,27 +378,38 @@ header nav .menu {
 }
 
 /* MARCAS */
+.container__marcas {
+  display: grid ;
+
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows:1fr 1fr 1fr; 
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px,300px));
+  justify-content: center;
+}
 .marcas__marcas {
-    width: 300px;
-    height: 300px;
-    border: 4px solid black;
-    margin: 15px;
-    text-align: center;
-    line-height: 150px;
-}
-.grid-layout {
-    width: 80%;
-    margin: 0 auto;
+  display: flex;
+  width: 300px;
+  height:300px;
 }
 
-.span {
-    font-size: 15px;
-    padding: 10px;
-    display: inline-block;
-    justify-content: center;
-    flex-basis: content;
+.marcas__marcas {
+  max-width: 300px;
+  padding: 0.5rem;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
 }
-
 
 /* NOSOTROS */
 
@@ -431,19 +450,6 @@ box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 11px 6px 22
     line-height: 150px;*/   
 }
 
-
-.marcas__marcas {
-    width: 300px;
-    height: 300px;
-    border: 4px solid black;
-    margin: 15px;
-    text-align: center;
-    line-height: 150px;
-}
-.grid-layout {
-    width: 80%;
-    margin: 0 auto;
-}
 
 /* CONTACTO */
 .container__contact__list{
