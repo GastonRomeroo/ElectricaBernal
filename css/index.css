@@ -335,22 +335,13 @@ header nav .menu {
   width: 750px;
 }
 /* TIENDA */
-    .stretched-link::after {
-      position:fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: 1;
-      content: "";
-  }
-.cards {
-  display: flex;
+.cards__img {
+  display: flex ;
+  flex-direction: column;
+
 }
 
-
-
-   /* MARCAS */
+/* MARCAS */
 .marcas__marcas {
     width: 300px;
     height: 300px;
