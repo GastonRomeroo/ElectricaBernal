@@ -324,25 +324,17 @@ header nav .menu {
     font-size: 20px;
     margin-top: 20px;
 }
-
-.carousel__section{
-  margin: auto;
+.carousel__div{
+  display: flex;
   justify-content: center;
 }
-
-
-.carousel__section {
-  margin-top: 20px;
-  width: max-content 750px;
-  height: max-content 623px;
-  font-size: 15px;
+.carousel-inner {
+  width: 750px;
 }
-.carousel__section {
-  display: flex;
+.carousel-item {
+  width: 750px;
 }
-
-
-    /* TIENDA */
+/* TIENDA */
     .stretched-link::after {
       position:fixed;
       top: 0;
