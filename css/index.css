@@ -365,7 +365,7 @@ header nav .menu {
   width: 540px;
 
 }
-/*@media  (max-width: 890px){
+@media  (max-width: 890px){
   .module-border-wrap {
       flex-direction: column;
   }
