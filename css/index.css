@@ -370,6 +370,10 @@ header nav .menu {
       flex-direction: column;
   }
 }
+
+.banner {
+  display: flex;
+}
 /* TIENDA */
 .cards__img {
   display: flex ;
