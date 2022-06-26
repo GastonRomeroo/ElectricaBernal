@@ -18,12 +18,6 @@
     display: flex;
     padding: 10px;
     justify-content: center;}
-   /*.carousel-inner {
-    width:540px;
-    }
-    .carousel-item {
-    width: 540px;
-    }*/
     .text__carousel  {
     display: flex;
     text-align: center;
@@ -40,6 +34,11 @@
 .banner__gradient {        
     background: rgb(146,147,147);
     background: linear-gradient(122deg, rgba(146,147,147,0.8) 0%, rgba(29,253,51,0.6) 16%, rgba(0,131,175,1) 71%);
+}
+.div_plc-aea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .plc-aea {
     display: flex;
