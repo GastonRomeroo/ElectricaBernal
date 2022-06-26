@@ -10,9 +10,24 @@
 }
 @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
         padding: 35px 0px;
     }
-  }
+}
+@media  (max-width: 890px){
+    .module-border-wrap {
+          flex-direction: column;
+      }
+}
+@media  (max-width: 890px){
+    .banner__gradient {
+          flex-direction: column;
+      }
+}
+@media  (max-width: 890px){
+    .banner__siemens {
+          flex-direction: column;
+      }
+}

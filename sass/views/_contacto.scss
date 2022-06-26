@@ -1,6 +1,5 @@
 .container__contact__list{
     display: flex;
-
     .Redes {
         display: flex;
         justify-content: center;
@@ -13,13 +12,11 @@
         flex-direction: column;   
     }
 }
-
-
 .contact__maps {
     display: flex;
     justify-content: center;
-
     .maps__iframe {
+        margin: 25px ;
         border: 3px outset #E96122;
         border-radius: 15px 21px 15px 30px;
       }

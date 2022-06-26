@@ -1,15 +1,8 @@
 /* ------FOOTER ------*/
-.banner__footer {
-    display: flex;
-    background-image:url(../Figma/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-basis: content;
-
-}
 .pie-pagina{
     width: 100%;
-    background-color: #0a141d;
+    background: rgb(0,0,0);
+    background: linear-gradient(166deg, rgba(0,0,0,1) 17%, rgba(17,143,82,1) 49%, rgba(108,0,175,1) 73%);
   }
   .pie-pagina .grupo-1{
     width: 100%;

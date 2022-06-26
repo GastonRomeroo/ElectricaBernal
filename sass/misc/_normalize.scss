@@ -1,31 +1,40 @@
+/* NORMALIZE */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-html {
+  }
+  html {
     font-size: 62.5%;
-}
-body {
+  }
+
+  body {
     background-image: url(../css/imagenes/white-painted-wall-texture-background.jpg);
     background-attachment: fixed;
     overflow: scroll;
     font-family: 'Anton', sans-serif;
     font-family: 'Koulen', cursive;
     color: black;
-    
     }
-ul {
+  header nav .navegation {
+    display: flex;
+    background-image: url(../../css/imagenes/defigma650/NUEVOBANNER/Frame1.jpg);
+  }
+  ul {
     list-style-type: none;
- 
-}
-a {
+  
+  }
+  a {
     text-decoration: none;
     color: black;
     font-family: 'Anton', sans-serif;
     font-family: 'Koulen', cursive;
    
-}
-img {
-    width: 100%;
-}
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-size:large;
+  }
+  
