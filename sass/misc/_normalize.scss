@@ -13,7 +13,6 @@
     background-attachment: fixed;
     overflow: scroll;
     font-family: 'Anton', sans-serif;
-    font-family: 'Koulen', cursive;
     color: black;
     }
   header nav .navegation {
@@ -21,8 +20,9 @@
     background-image: url(../../css/imagenes/defigma650/NUEVOBANNER/Frame1.jpg);
   }
   ul {
+    display: contents;
     list-style-type: none;
-  
+    padding: none;
   }
   a {
     text-decoration: none;
