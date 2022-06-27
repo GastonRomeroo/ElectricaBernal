@@ -8,8 +8,6 @@
     display: block;
     padding: 10px 20px;
     max-width: 200px;
-    font-variant: small-caps;
-    text-shadow: 1px 1px black;
     font-size: larger;
   }
   .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
@@ -33,11 +31,9 @@
   }
   
   .respmenu {
-    color: white;
+    color: black;
     position: relative;
     width: 100%;
-    background: rgb(0,0,0);
-    background: linear-gradient(49deg, rgba(0,0,0,1) 31%, rgba(241,84,0,1) 62%, rgba(143,17,17,1) 92%);
     min-height: 48px;
   }
   
