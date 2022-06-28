@@ -1,7 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200&display=swap');
+
+/*--Colors--*/
+$primary: white;
+$secondary:blue;
+$alternative:green;
+$text-color: black;
+$base: orange;
+
+/*--Spacings--*/
+$spacing-large: 6rem;
+$spacing-medium: 2.4rem;
+$spacing-small: 2rem;
+$spacing-xsmall:1rem;
+
 /*FONTS FAMILY*/
 $font-primary: 'Anton', sans-serif;
+$font-secondary: 'Inter', sans-serif;
 
-
-
-/*FONTS*/
+/*--Font-Sizes--*/
+$text-large:5.2em;
+$text-medium:2.2em;
+$text-base:1.6em;
+$text-small:1.4em;
