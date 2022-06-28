@@ -187,19 +187,20 @@ a {
   border-style: solid;
   border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%; }
 
+.main__grid {
+  padding: 1rem; }
+
 .conteiner__grid {
   font-family: 'Koulen', cursive;
   display: flex;
   width: 98%;
   max-width: 1000px;
   margin: auto;
-  font-size: 15px;
   line-height: 15px;
   text-align: center; }
 
 .conteiner__grid > div {
-  display: flex;
-  padding: 20px; }
+  display: flex; }
 
 .conteiner__grid {
   display: grid;
