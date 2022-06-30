@@ -252,7 +252,7 @@ a {
   border-image-source: linear-gradient(to bottom right, #f78ae0, #6638f0);
   border-image-slice: 4;
   margin: 4px;
-  display: flex;
+  display: block;
   background: white;
   background: radial-gradient(circle, white 13%, rgba(158, 166, 160, 0.422841) 50%, white 78%);
   padding: 3px;
