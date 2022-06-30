@@ -1,0 +1,6 @@
+@mixin button_mixin {
+    border: solid 3px;
+    border-image-source: linear-gradient(to bottom right, #f78ae0, #6638f0);
+    border-image-slice: 4;
+    margin: 4px;
+  }

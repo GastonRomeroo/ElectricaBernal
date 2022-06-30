@@ -1,22 +1,32 @@
 /* ----- HOME -----*/
+.normalizator{
+    display: flex;
+    padding:$spacing-xsmall;
+}
+
+
 .module-border-wrap {
+    @include button_mixin;
     display: flex;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 13%, rgba(158,166,160,0.4228405898876404) 50%, rgba(255,255,255,1) 78%);
     padding: 3px; 
     margin: 20px;
 }
+
+
 .carousel__div{
-    display: flex;
-    padding:$spacing-xsmall;
-    justify-content: center;}
+    @extend .normalizator;
+    justify-content: center;
+}
     .text__carousel  {
-    display: flex;
+    @extend .normalizator;
     text-align: center;
     align-items: center;
     }
   
 .banner__gradient {
+    @include button_mixin;
     display: flex;
     margin-top: 10px;
     margin: 20px;
@@ -32,13 +42,11 @@
     align-items: center;
 }
 .plc-aea {
-    display: flex;
-    padding: $spacing-xsmall;
+    @extend .normalizator;
     justify-content: center;
 }
 .text__aea  {
-    display: flex;
-    padding: $spacing-xsmall;
+    @extend .normalizator;
     text-align: center;
     align-items: center;
     }
@@ -46,9 +54,10 @@
 
     
 .banner__siemens {
-      display: flex;
-      margin-top: 10px;
-      margin: 20px;
+    @include button_mixin;
+    display: flex;
+    margin-top: 10px;
+    margin: 20px;
     }
 .banner__siemens{
     display: flex;
@@ -60,13 +69,12 @@
     align-items: center;
   }
 .auto_siemes {
-    display: flex;
-    padding: 10px;
+    @extend .normalizator;
     justify-content: center;
   }
 .text__siemens  {
-    display: flex;
-    padding: 10px;
+    @extend .normalizator;
     text-align: center;
     align-items: center;
+
   }

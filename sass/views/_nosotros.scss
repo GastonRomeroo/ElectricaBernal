@@ -9,20 +9,27 @@
     margin: auto;
     line-height: 15px;
     text-align: center;
+    justify-items: center;
+    justify-content: center;
 }
 .conteiner__grid > div {
     display: flex;
+    margin: auto;
   
 }
 .conteiner__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows:1fr 1fr 1fr; 
-    grid-gap: 10px;
+    grid-gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(150px,300px));
     justify-content: center;
 }
-.conteiner__grid__img .conteiner__grid__text {
-  border: 5px inset rgba(155,62,164,0.54);
-  border-radius: 23px 0px 23px 0px;
+.conteiner__grid__img {
+    width: 300px 300px;
+    @include button_mixin
   }
+
+.conteiner__grid__text {
+    width: 300px 300px;
+}
