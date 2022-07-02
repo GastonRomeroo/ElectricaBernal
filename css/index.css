@@ -49,6 +49,14 @@ a {
     padding: 10rem;
     border-bottom: 2px solid;
     flex-basis: content; }
+  .burger {
+    display: none; }
+  .fa-times:before {
+    content: "\f00d";
+    display: none; }
+  .fa-bars:before {
+    content: "\f0c9";
+    display: none; }
   header {
     display: flex;
     background-image: url(../Figma/banner.png);
