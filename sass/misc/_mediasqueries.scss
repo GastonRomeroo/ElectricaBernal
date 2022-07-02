@@ -3,14 +3,16 @@
         flex-direction: column;
     }
 }
+
 @media  (max-width: 600px){
     .menu {
         flex-direction: column;
     }
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:890px){
     .pie-pagina .grupo-1{
         width: 100%;
+        flex-direction: column;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
         padding: 35px 0px;
@@ -18,18 +20,51 @@
     }
 }
 @media  (max-width: 890px){
+    .carousel__div {
+        display: contents;
+        flex-direction: column;
+    }
     .module-border-wrap {
         flex-direction: column;
-      }
-}
-@media  (max-width: 890px){
+    }
     .banner__gradient {
         flex-direction: column;
-      }
-}
-
-@media  (max-width: 890px){
+    }
     .banner__siemens {
         flex-direction: column;
+    }
+}
+@media  (max-width: 360px){
+    .plc-aea {
+        width: 100%;
+        flex-direction: column;
+          }
+    .auto_siemes {
+        width: 100%;
+        flex-direction: column;
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        width: 100%;
+    }
+    .text__carousel {
+        display: contents;
+    }
+}
+
+/* TIENDA */
+@media  (max-width: 600px){
+    .card {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media  (max-width: 350px){
+    .div__cards__img {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
     }
 }

@@ -1,5 +1,7 @@
 .div__cards__img {
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .cards__img{
     @include button_mixin;
