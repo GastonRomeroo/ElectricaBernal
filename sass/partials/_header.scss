@@ -25,6 +25,7 @@ header{
   background-image: url(../Figma/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: initial;
 }
 header nav li  {
   display: flex;
@@ -48,6 +49,7 @@ header nav ul {
     background-image: url(../Figma/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: initial;
     border-bottom: 2px solid ;
   }
   .respmenu a {

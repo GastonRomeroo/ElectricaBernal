@@ -61,7 +61,8 @@ a {
     display: flex;
     background-image: url(../Figma/banner.png);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    font-size: initial; }
   header nav li {
     display: flex; }
   a:hover {
@@ -79,6 +80,7 @@ a {
     background-image: url(../Figma/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: initial;
     border-bottom: 2px solid; }
   .respmenu a {
     color: inherit;
