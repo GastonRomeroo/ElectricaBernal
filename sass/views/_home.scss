@@ -7,23 +7,26 @@
 .module-border-wrap {
     @include button_mixin;
     display: flex;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 13%, rgba(158,166,160,0.4228405898876404) 50%, rgba(255,255,255,1) 78%);
-    padding: 3px; 
+    margin-top: 10px;
     margin: 20px;
-}
-
-
-.carousel__div{
-    width: 200% !important;
-    margin: 2px solid black;
-    display: flex;
     align-items: center;
 }
-    .text__carousel  {
+.module-border-wrap {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 13%, rgba(158,166,160,0.4228405898876404) 50%, rgba(255,255,255,1) 78%);
+}
+.carousel-inner {
+    border: 2px solid black;
+}
+.carousel__div{
+    @extend .normalizator;
+    justify-content: center;
+}
+.text__carousel  {
     @extend .normalizator;
     text-align: center;
     align-items: center;
+    width: fit-content;
     }
   
 .banner__gradient {
