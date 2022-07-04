@@ -1,6 +1,7 @@
 .nosotros-html{
     background-image: url(../../Figma/nosotros.png);
 }
+
 .main__grid {
     padding: 1rem;
 }
@@ -20,7 +21,7 @@
 }
 
 .conteiner__grid__img {
-    @include button_mixin
+    @include button_mixin;
     .img-grid-nos{
         width: 100%;
     }
