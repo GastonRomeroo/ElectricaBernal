@@ -41,7 +41,7 @@ a {
 
 /*PARTIALS*/
 /* -----HEADER----- */
-@media (min-device-width: 601px) and (max-device-width: 1500px) {
+@media (min-device-width: 601px) {
   header {
     display: inline-block;
     align-items: center;
@@ -241,19 +241,11 @@ label {
   border-style: solid;
   border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%; }
 
+.nosotros-html {
+  background-image: url(../../Figma/nosotros.png); }
+
 .main__grid {
   padding: 1rem; }
-
-.conteiner__grid {
-  font-family: 'Koulen', cursive;
-  display: flex;
-  width: 98%;
-  max-width: 1000px;
-  margin: auto;
-  line-height: 15px;
-  text-align: center;
-  justify-items: center;
-  justify-content: center; }
 
 .conteiner__grid > div {
   display: flex;
@@ -263,16 +255,18 @@ label {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-gap: 15px;
+  grid-gap: 40px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+  justify-items: center;
   justify-content: center; }
 
 .conteiner__grid__img {
-  width: 300px 300px;
   border: solid 3px;
   border-image-source: linear-gradient(to bottom right, #f78ae0, #6638f0);
   border-image-slice: 4;
   margin: 2px; }
+  .conteiner__grid__img .img-grid-nos {
+    width: 100%; }
 
 .conteiner__grid__text {
   width: 300px 300px; }

@@ -1,33 +1,29 @@
+.nosotros-html{
+    background-image: url(../../Figma/nosotros.png);
+}
 .main__grid {
     padding: 1rem;
 }
-.conteiner__grid {
-    font-family: 'Koulen', cursive;
-    display: flex;
-    width: 98%;
-    max-width: 1000px;
-    margin: auto;
-    line-height: 15px;
-    text-align: center;
-    justify-items: center;
-    justify-content: center;
-}
+
 .conteiner__grid > div {
-    display: flex;
-    margin: auto;
-  
+     display: flex;
+     margin: auto;
 }
 .conteiner__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows:1fr 1fr 1fr; 
-    grid-gap: 15px;
+    grid-gap: 40px;
     grid-template-columns: repeat(auto-fit, minmax(150px,300px));
+    justify-items: center;
     justify-content: center;
 }
+
 .conteiner__grid__img {
-    width: 300px 300px;
     @include button_mixin
+    .img-grid-nos{
+        width: 100%;
+    }
   }
 
 .conteiner__grid__text {
