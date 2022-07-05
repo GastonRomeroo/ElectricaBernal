@@ -241,9 +241,6 @@ label {
   border-image-slice: 4;
   margin: 2px; }
 
-.nosotros-html {
-  background-image: url(../../Figma/nosotros.png); }
-
 .main__grid {
   padding: 1rem; }
 
@@ -270,6 +267,9 @@ label {
 
 .conteiner__grid__text {
   width: 300px 300px; }
+
+.nosotros-html {
+  background-image: url(../css/MARCAS/nosotros.png); }
 
 .div__cards__img {
   display: flex;
