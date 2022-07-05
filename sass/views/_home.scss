@@ -1,0 +1,84 @@
+/* ----- HOME -----*/
+.normalizator{
+    display: flex;
+    padding:$spacing-xsmall;
+}
+
+.module-border-wrap {
+    @include button_mixin;
+    display: flex;
+    margin-top: 10px;
+    margin: 20px;
+    align-items: center;
+}
+.module-border-wrap {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 13%, rgba(158,166,160,0.4228405898876404) 50%, rgba(255,255,255,1) 78%);
+}
+.carousel-inner {
+    border: 2px solid black;
+}
+.carousel__div{
+    @extend .normalizator;
+    justify-content: center;
+}
+.text__carousel  {
+    @extend .normalizator;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
+    }
+
+.banner__gradient {
+    @include button_mixin;
+    display: flex;
+    margin-top: 10px;
+    margin: 20px;
+    align-items: center;
+}
+.banner__gradient {        
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 13%, rgba(158,166,160,0.4228405898876404) 50%, rgba(255,255,255,1) 78%);
+}
+.div_plc-aea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plc-aea {
+    @extend .normalizator;
+    justify-content: center;
+}
+.text__aea  {
+    @extend .normalizator;
+    text-align: center;
+    align-items: center;
+    }
+
+
+    
+.banner__siemens {
+    @include button_mixin;
+    display: flex;
+    margin-top: 10px;
+    margin: 20px;
+    }
+.banner__siemens{
+    display: flex;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 13%, rgba(158,166,160,0.4228405898876404) 50%, rgba(255,255,255,1) 78%);
+
+    padding: 3px; 
+    margin: 20px;
+    align-items: center;
+  }
+.auto_siemes {
+    @extend .normalizator;
+    justify-content: center;
+  }
+.text__siemens  {
+    @extend .normalizator;
+    text-align: center;
+    align-items: center;
+
+  }

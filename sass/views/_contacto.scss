@@ -1,0 +1,46 @@
+/*----CONTACTOS----*/
+.row-23 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));  
+    padding: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.col ul li {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.tel-inf {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.row-23{
+    margin: 50px;
+    font-family:$font-primary;
+    font-size: $text-base;
+    border: 5px inset #800000;
+    border-radius: 29px;
+    padding: 10px;
+    
+}
+.h3-text{
+    padding: 5px;
+}
+.text-area-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+label{
+    padding: 10px;
+}
+.body-locura {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}

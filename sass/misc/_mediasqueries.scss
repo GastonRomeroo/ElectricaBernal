@@ -1,0 +1,87 @@
+@media  (max-width: 600px){
+    .container__contact__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media  (max-width: 600px){
+    .menu {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:890px){
+    .pie-pagina .grupo-1{
+        width: 100%;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+        text-align: center;
+    }
+}
+@media  (max-width: 890px){
+    .module-border-wrap {
+        flex-direction: column;
+    }
+    .carousel__div {
+        flex-direction: column;
+    }
+    .banner__gradient {
+        flex-direction: column;
+    }
+    .banner__siemens {
+        flex-direction: column;
+    }
+}
+@media  (max-width: 360px){
+    .plc-aea {
+        width: 100%;
+        flex-direction: column;
+          }
+    .auto_siemes {
+        width: 100%;
+        flex-direction: column;
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        width: 100%;
+    }
+    .text__carousel {
+        display: contents;
+    }
+}
+
+/* TIENDA */
+@media  (max-width: 600px){
+    .card {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media  (max-width: 350px){
+    .div__cards__img {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+}
+/*CONTACTO*/
+@media  (max-width: 600px){
+    .col ul li {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        justify-content: center;
+    }
+    .fa-envelope{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}

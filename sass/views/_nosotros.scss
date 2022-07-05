@@ -1,0 +1,32 @@
+
+.main__grid {
+    padding: 1rem;
+}
+
+.conteiner__grid > div {
+     display: flex;
+     margin: auto;
+}
+.conteiner__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr; 
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(150px,400px));
+    justify-items: center;
+    justify-content: center;
+}
+
+.conteiner__grid__img {
+    @include button_mixin;
+    .img-grid-nos{
+        width: 100%;
+    }
+  }
+
+.conteiner__grid__text {
+    width: 300px 300px;
+}
+.nosotros-html{
+    background-image: url(../css/MARCAS/nosotros.png);
+}
