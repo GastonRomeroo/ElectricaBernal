@@ -1,32 +1,19 @@
-.container__marcas {
-    display: grid ;
-  
-  }
-  
-  .row {
+.row-marcas-html {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows:1fr 1fr 1fr; 
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(150px,300px));
+    grid-template-columns: repeat(auto-fit, minmax(150px,500px));
     justify-content: center;
-  }
-  .marcas__marcas {
+    padding: 10px;
+    width: 100%;
+}
+.marcas__marcas{
     display: flex;
-    width: 300px;
-    height:300px;
-  }
-  
-  .marcas__marcas {
-    max-width: 300px;
-    padding: 0.5rem;
-    color: white;
-    border-width: 3px;
-    border-style: solid;
-    border-image: 
-    linear-gradient(
-        to bottom, 
-        red, 
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
-  }
+    width: 100%;
+}
+
+.col-12 {
+    @include button_mixin 
+    
+}   

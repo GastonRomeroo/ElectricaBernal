@@ -77,4 +77,11 @@
         padding: 10px;
         justify-content: center;
     }
-}   
+    .fa-envelope{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}

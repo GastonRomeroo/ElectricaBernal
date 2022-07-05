@@ -186,17 +186,21 @@ a {
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
   padding: 100px;
-  justify-content: space-between; }
+  justify-content: space-around;
+  align-items: center; }
 
 .col ul li {
   display: flex;
   align-items: center;
   padding: 1rem; }
 
-.tel {
-  padding: 10px; }
+.tel-inf {
+  display: flex;
+  padding: 10px;
+  justify-content: center; }
 
-.col {
+.row-23 {
+  margin: 50px;
   font-family: "Anton", sans-serif;
   font-size: 1.6em;
   border: 5px inset #800000;
@@ -217,29 +221,25 @@ label {
 .body-locura {
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); }
 
-.container__marcas {
-  display: grid; }
-
-.row {
+.row-marcas-html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
-  justify-content: center; }
+  grid-template-columns: repeat(auto-fit, minmax(150px, 500px));
+  justify-content: center;
+  padding: 10px;
+  width: 100%; }
 
 .marcas__marcas {
   display: flex;
-  width: 300px;
-  height: 300px; }
+  width: 100%; }
 
-.marcas__marcas {
-  max-width: 300px;
-  padding: 0.5rem;
-  color: white;
-  border-width: 3px;
-  border-style: solid;
-  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%; }
+.col-12 {
+  border: solid 3px;
+  border-image-source: linear-gradient(to bottom right, #f78ae0, #6638f0);
+  border-image-slice: 4;
+  margin: 2px; }
 
 .nosotros-html {
   background-image: url(../../Figma/nosotros.png); }
@@ -256,7 +256,7 @@ label {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
   justify-items: center;
   justify-content: center; }
 
@@ -425,4 +425,10 @@ label {
     display: flex;
     align-items: center;
     padding: 10px;
-    justify-content: center; } }
+    justify-content: center; }
+  .fa-envelope {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; } }

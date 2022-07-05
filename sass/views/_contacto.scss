@@ -6,17 +6,22 @@
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(150px, 300px));  
     padding: 100px;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 .col ul li {
     display: flex;
     align-items: center;
     padding: 1rem;
 }
-.tel {
+.tel-inf {
+    display: flex;
     padding: 10px;
+    justify-content: center;
+    
 }
-.col{
+.row-23{
+    margin: 50px;
     font-family:$font-primary;
     font-size: $text-base;
     border: 5px inset #800000;
