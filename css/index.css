@@ -49,6 +49,8 @@ ol, ul {
 /*PARTIALS*/
 /* -----HEADER----- */
 @media (min-device-width: 701px) {
+  .index-png {
+    background-image: url(../../css/fondoindex.png); }
   header nav .navegation {
     display: flex;
     background-image: url(../../css/imagenes/defigma650/NUEVOBANNER/Frame1.jpg);
@@ -90,6 +92,8 @@ ol, ul {
 
 /* -----HEADER----- */
 @media (min-device-width: 100px) and (max-device-width: 700px) {
+  .index-png {
+    background-image: url(../../css/fondoindexmedia.png); }
   .logo-png {
     display: none; }
   .nav_header {
@@ -405,9 +409,6 @@ button, input, optgroup, select, textarea {
   background: #ff3636; }
 
 /* ----- HOME -----*/
-.index-png {
-  background-image: url(../../css/fondoindex.png); }
-
 .normalizator, .carousel__div, .text__carousel, .plc-aea, .text__aea, .auto_siemes, .text__siemens {
   display: flex;
   padding: 1rem; }
@@ -486,6 +487,7 @@ button, input, optgroup, select, textarea {
   .menu {
     flex-direction: column; } }
 
+/*footer*/
 @media screen and (max-width: 890px) {
   .pie-pagina .grupo-1 {
     width: 100%;

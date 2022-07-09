@@ -1,5 +1,8 @@
 /* -----HEADER----- */
 @media  (min-device-width: 701px){
+  .index-png{
+    background-image: url(../../css/fondoindex.png);
+}
   
 header nav .navegation {
   display: flex;
@@ -57,6 +60,9 @@ header nav ul {
 
 /* -----HEADER----- */
 @media  (min-device-width: 100px) and (max-device-width: 700px){ 
+.index-png{
+    background-image: url(../../css/fondoindexmedia.png);
+}
 .logo-png{
   display: none;
 }
