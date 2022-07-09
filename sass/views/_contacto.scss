@@ -1,4 +1,7 @@
 /*----CONTACTOS----*/
+.body-contac {
+    background-image:url(../../css/contacto.png);
+}
 .row-23 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,29 +21,39 @@
     display: flex;
     padding: 10px;
     justify-content: center;
+    font-size: $font-primary;
     
 }
 .row-23{
     margin: 50px;
     font-family:$font-primary;
     font-size: $text-base;
-    border: 5px inset #800000;
-    border-radius: 29px;
+    border: 5px ridge rgba(255,215,0,0.75);
+    border-radius: 38px;
     padding: 10px;
-    
+}
+.row-23{
+    background: rgb(194,194,196);
+    background: linear-gradient(180deg, rgba(194,194,196,0.7) 0%, rgba(194,194,196,0.7) 50%, rgba(194,194,196,0.7) 100%);
 }
 .h3-text{
+    font-size: $font-primary;
     padding: 5px;
 }
 .text-area-form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
+ 
 }
-label{
+/*boostrap*/
+
+.fab, .far {
+    font-weight: 100;
+}
+button, input, optgroup, select, textarea {
     padding: 10px;
-}
-.body-locura {
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    margin: 19px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
 }

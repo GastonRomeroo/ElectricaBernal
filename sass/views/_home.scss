@@ -1,11 +1,13 @@
  /* ----- HOME -----*/
+.index-png{
+    background-image: url(../../css/fondoindex.png);
+}
 .normalizator{
     display: flex;
     padding:$spacing-xsmall;
 }
 
 .module-border-wrap {
-    @include button_mixin;
     display: flex;
     margin-top: 10px;
     margin: 20px;
@@ -30,7 +32,6 @@
     }
 
 .banner__gradient {
-    @include button_mixin;
     display: flex;
     margin-top: 10px;
     margin: 20px;
@@ -58,7 +59,6 @@
 
     
 .banner__siemens {
-    @include button_mixin;
     display: flex;
     margin-top: 10px;
     margin: 20px;

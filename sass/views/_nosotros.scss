@@ -1,3 +1,6 @@
+.nosotros-html{
+    background-image: url(../css/MARCAS/nosotros.png);
+}
 
 .main__grid {
     padding: 1rem;
@@ -18,7 +21,6 @@
 }
 
 .conteiner__grid__img {
-    @include button_mixin;
     .img-grid-nos{
         width: 100%;
     }
@@ -26,7 +28,10 @@
 
 .conteiner__grid__text {
     width: 300px 300px;
+    border-radius: 29px;
+    background: rgb(34,193,195);
+    background: linear-gradient(49deg, rgba(34,193,195,0.5) 0%, rgba(253,187,45,0.5) 100%);
 }
-.nosotros-html{
-    background-image: url(../css/MARCAS/nosotros.png);
+.grid__text__a{
+    margin: 5px;
 }

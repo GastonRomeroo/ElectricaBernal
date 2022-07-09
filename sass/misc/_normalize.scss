@@ -17,10 +17,7 @@
     font-family: $font-primary;
     color: $text-color;
     }
-  header nav .navegation {
-    display: flex;
-    background-image: url(../../css/imagenes/defigma650/NUEVOBANNER/Frame1.jpg);
-  }
+
   ul {
     display: contents;
     list-style-type: none;
@@ -31,4 +28,12 @@
     color: $text-color;
     font-family:$font-secondary;
     font-size:$text-base;
+  }
+
+  h3{
+    font-weight: bolder;
+  }
+  dl, ol, ul { /*luchando con boostrap*/
+    margin-top: 0;
+    margin-bottom: 1rem;
   }

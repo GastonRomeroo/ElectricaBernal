@@ -11,7 +11,10 @@
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:50px;
-    padding: 45px 0px;
+    padding: 20px 0px;
+    justify-items: center;
+    align-items: center;
+    font-size: $text-small;
   }
   .pie-pagina .grupo-1 .box figure{
     width: 100%;
@@ -55,5 +58,5 @@
     color: #fff;
   }
   .pie-pagina .grupo-2 small{
-    font-size: 15px;
+    font-size: $text-small;
   }
