@@ -43,9 +43,12 @@ dl, ol, ul {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+ol, ul {
+  /* padding-left: 2rem; */ }
+
 /*PARTIALS*/
 /* -----HEADER----- */
-@media (min-device-width: 601px) {
+@media (min-device-width: 701px) {
   header nav .navegation {
     display: flex;
     background-image: url(../../css/imagenes/defigma650/NUEVOBANNER/Frame1.jpg);
@@ -86,7 +89,12 @@ dl, ol, ul {
     gap: 2rem; } }
 
 /* -----HEADER----- */
-@media (min-device-width: 100px) and (max-device-width: 600px) {
+@media (min-device-width: 100px) and (max-device-width: 700px) {
+  .logo-png {
+    display: none; }
+  .nav_header {
+    display: flex;
+    justify-content: center; }
   .header_1 {
     display: block;
     padding: 0px;
